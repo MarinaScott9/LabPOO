@@ -6,11 +6,11 @@
 
 #pragma once
 #ifndef H_PONTO
-
 #define H_PONTO
-#include <iostream>
-#include <cmath>
 
+#include <cmath>
+#include <iostream>
+using namespace std;
 
 class Ponto
 {
@@ -29,10 +29,8 @@ public:
 	// Retorna 1 quando esse ponto e "outro" forem iguais
 	bool eIgual(const Ponto* outro) const;
 
-private:
 	// Coordenadas x e y, respectivamente.
-	double Coords[2] = { 0.0, 0.0 };
-
+	double Coordenada[2] = {0.0, 0.0};
 };
 
 #endif // !H_PONTO
